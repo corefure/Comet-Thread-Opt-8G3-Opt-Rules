@@ -1614,12 +1614,13 @@
     ],
     "2-4": [
      "UnityMain",
-     "UnityGfx*",
-     "UnityPreload",
      "IL2CPP*",
      "mali-*",
      "Thread-*",
      "LogicThread"
+    ],
+    "3": [
+     "UnityGfx*"
     ],
     "5-6": [
      "NativeThread",
@@ -1628,6 +1629,9 @@
      "CoreThread",
      "AILocalThread",
      "Apollo-*"
+    ],
+    "7,2-4": [
+     "UnityPreload"
     ]
    },
    "other": "2-6"
@@ -1918,13 +1922,13 @@
      "UnityChoreo*"
     ],
     "2-4": [
-     "UnityGfx*",
      "Thread-*",
-     "UnityPreload",
      "mali-*"
     ],
+    "3": [
+     "UnityGfx*"
+    ],
     "5-6": [
-     "UnityMain",
      "IL2CPP*",
      "CoreThread",
      "NativeThread",
@@ -1932,6 +1936,12 @@
      "Job.[Ww]orker*",
      "AILocalThread",
      "Apollo-*"
+    ],
+    "7": [
+     "UnityMain"
+    ],
+    "7,2-4": [
+     "UnityPreload"
     ]
    },
    "other": "2-6"
@@ -1948,13 +1958,13 @@
      "UnityChoreo*"
     ],
     "2-4": [
-     "UnityGfx*",
      "Thread-*",
-     "UnityPreload",
      "mali-*"
     ],
+    "3": [
+     "UnityGfx*"
+    ],
     "5-6": [
-     "UnityMain",
      "IL2CPP*",
      "CoreThread",
      "NativeThread",
@@ -1962,6 +1972,12 @@
      "Job.[Ww]orker*",
      "AILocalThread",
      "Apollo-*"
+    ],
+    "7": [
+     "UnityMain"
+    ],
+    "7,2-4": [
+     "UnityPreload"
     ]
    },
    "other": "2-6"
